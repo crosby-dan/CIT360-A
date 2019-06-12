@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static AppController.FrontController.AppControllerDemo;
-import static TestController.Application_Controller_Pattern_CALCULATOR.goMath;
+import static HTTPJSONDemo.HTTPDemo.mainTest;
 
 public class Main {
 
@@ -18,7 +18,7 @@ public class Main {
         Matcher matcher;
         boolean matchResult;
         do {
-            System.out.format("\nChoose menu item:\n\t1) Collections Demo\n\t2) Threads Demo\n\t3) Application Controller Demo\n\t4) Test Application Controller Demo\n\t5) Quit: ");
+            System.out.format("\nChoose menu item:\n\t1) Collections Demo\n\t2) Threads Demo\n\t3) Application Controller Demo\n\t4) HTTP & JSON Demo\n\t5) Quit: ");
             @SuppressWarnings("resource")
             Scanner in = new Scanner (System.in);
             String input=in.nextLine();
@@ -31,14 +31,14 @@ public class Main {
                     case 1:  RunCollectionsDemo(); break;
                     case 2:  RunThreadsDemo(); break;
                     case 3:  AppControllerDemo(); break;
-                    case 4:  goMath();
+                    case 4:  mainTest();
                     case 5:  System.out.println ("Program terminated."); return;
                 }
         }
         while (!matchResult || Integer.parseInt(matcher.group(1))<7);
     }
 
-    public static void RunCollectionsDemo() {
+    private static void RunCollectionsDemo() {
     CollectionsDemo c = new CollectionsDemo();
 
     //This blockW of code will capture the number of the collection test to run.
@@ -68,7 +68,7 @@ public class Main {
         while (!matchResult || Integer.parseInt(matcher.group(1))<7);
 }
 
-    public static void RunThreadsDemo() {
+    private static void RunThreadsDemo() {
         ThreadsDemo t = new ThreadsDemo();
         AtomicityDemo t2 = new AtomicityDemo();
 
