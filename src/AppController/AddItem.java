@@ -8,6 +8,7 @@ import static AppController.FrontController.setShoppingList;
  * Clear the shopping list.
  */
 public class AddItem implements doListCommand {
+
     /**
      *Method runCommand
      *<p>
@@ -17,7 +18,7 @@ public class AddItem implements doListCommand {
      */
     public void runCommand(String sCommand){
         if (sCommand.isEmpty())
-            System.out.format("*******************************************\nInvalid item requested.\n",sCommand);
+            System.out.format("*******************************************\nInvalid item '%s' requested.\n",sCommand);
         else if (!setShoppingList.contains(sCommand.toLowerCase())) {
             setShoppingList.add(sCommand.toLowerCase());
             System.out.format("*******************************************\nAdded %s to list.\n", sCommand);
