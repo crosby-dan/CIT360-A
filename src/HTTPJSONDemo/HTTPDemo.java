@@ -22,10 +22,13 @@ public class HTTPDemo {
      * Launching point to start HTTP related tests.
      *</p>
      */
-    public static void mainTest() {
+    public static void httpTest() {
         HTTPDemo httpDemo = new HTTPDemo();
         httpDemo.processRequests();
-        }
+
+        JSONDemo jsonDemo = new JSONDemo();
+        jsonDemo.jsonDemoRun();
+    }
 
     /**
      *Method processRequests

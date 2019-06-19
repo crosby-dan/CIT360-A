@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static AppController.FrontController.AppControllerDemo;
-import static HTTPJSONDemo.HTTPDemo.mainTest;
+import static HTTPJSONDemo.HTTPDemo.httpTest;
 
 public class Main {
 
@@ -31,7 +31,7 @@ public class Main {
                     case 1:  RunCollectionsDemo(); break;
                     case 2:  RunThreadsDemo(); break;
                     case 3:  AppControllerDemo(); break;
-                    case 4:  mainTest();
+                    case 4:  httpTest();
                     case 5:  System.out.println ("Program terminated."); return;
                 }
         }

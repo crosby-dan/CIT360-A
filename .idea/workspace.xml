@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31f45242-03ea-40bb-9da0-2e39c9281098" name="Default Changelist" comment="Working version of HTTPDemo,removed TestController which was for testing comparison only.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUNITTestTarget/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUNITTestTarget/TestTargets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/JUNITTest/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/JUNITTest/TestAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/JUNITTest/TestTargetsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="31f45242-03ea-40bb-9da0-2e39c9281098" name="Default Changelist" comment="Finished JSON Demo using GSON">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HTTPJSONDemo/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIT360-A.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CIT360-A.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/AddItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/ClearList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/FrontController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/ListRequestHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/PrintList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/RemoveItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/AppController/doListCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/CollectionsThreads/AtomicityDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/CollectionsThreads/CollectionsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/CollectionsThreads/RandomCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/CollectionsThreads/ThreadsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/HTTPJSONDemo/HTTPDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIT360-A/Util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppController/AddItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppController/AddItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AppController/AddItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AppController/AddItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HTTPJSONDemo/HTTPDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HTTPJSONDemo/HTTPDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HTTPJSONDemo/JSONDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HTTPJSONDemo/JSONDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -45,33 +31,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppController/AddItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="164">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppController/ClearList.java">
+        <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="191">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppController/ListRequestHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/Util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="106">
+              <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
+              <folding>
+                <element signature="e#2325#2354#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,62 +102,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="-902">
+              <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestTargetsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/JUNITTest/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JUNITTestTarget/TestTargets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JUNITTestTarget/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,8 +117,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -156,6 +128,7 @@
       <find>response cod</find>
       <find>map</find>
       <find>sun</find>
+      <find>mainTest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/TestController/Subtraction.java" />
         <option value="$PROJECT_DIR$/src/CollectionsThreads/RandomCollection.java" />
         <option value="$PROJECT_DIR$/src/Util.java" />
-        <option value="$PROJECT_DIR$/src/Util/Util.java" />
         <option value="$PROJECT_DIR$/src/CollectionsThreads/AtomicityDemo.java" />
         <option value="$PROJECT_DIR$/src/CollectionsThreads/CollectionsDemo.java" />
         <option value="$PROJECT_DIR$/src/CollectionsThreads/ThreadsDemo.java" />
@@ -187,13 +159,9 @@
         <option value="$PROJECT_DIR$/src/AppController/ListRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/HTTPJSONDemo/HJDemo.java" />
         <option value="$PROJECT_DIR$/src/HTTPJSONDemo/test.html" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java" />
-        <option value="$PROJECT_DIR$/src/AppController/AddItem.java" />
         <option value="$PROJECT_DIR$/test/AppController/AddItemTest.java" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/test/HTTPJSONDemo/HTTPDemoTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/JUNITTest/CarTest.java" />
         <option value="$PROJECT_DIR$/src/JUNITTestTarget/Car.java" />
         <option value="$PROJECT_DIR$/src/JUNITTestTarget/Main.java" />
@@ -201,6 +169,15 @@
         <option value="$PROJECT_DIR$/test/JUNITTest/CarTest.java" />
         <option value="$PROJECT_DIR$/test/JUNITTest/MainTest.java" />
         <option value="$PROJECT_DIR$/test/JUNITTest/TestAll.java" />
+        <option value="$PROJECT_DIR$/src/AppController/AddItem.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/DumpResponse.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/Employees.java" />
+        <option value="$PROJECT_DIR$/src/Util/Util.java" />
+        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java" />
+        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java" />
+        <option value="$PROJECT_DIR$/src/HTTPJSONDemo/Employee.java" />
       </list>
     </option>
   </component>
@@ -226,18 +203,24 @@
             <path>
               <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT360-A" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CIT360-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
               <item name="CIT360-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JUNITTestTarget" type="462c0819:PsiDirectoryNode" />
+              <item name="HTTPJSONDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT360-A" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIT360-A" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CIT360-A" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +268,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HTTPJSONDemo" />
       <recent name="JUNITTest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -308,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CIT360-A" />
@@ -352,8 +336,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testAdder" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.testAdder" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +369,7 @@
       <workItem from="1560428851342" duration="1582000" />
       <workItem from="1560722077902" duration="980000" />
       <workItem from="1560868246988" duration="105000" />
-      <workItem from="1560957010879" duration="959000" />
+      <workItem from="1560957010879" duration="17341000" />
     </task>
     <task id="LOCAL-00001" summary="Working version of HTTPDemo,removed TestController which was for testing comparison only.">
       <created>1560315031515</created>
@@ -394,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560315031515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Integrated JUnitTest">
+      <created>1560958130732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560958130732</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -410,9 +401,12 @@
     <history-entry file="TestAll - 2019.06.19 at 10h 26m 27s.xml">
       <configuration name="TestAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAll - 2019.06.19 at 10h 35m 51s.xml">
+      <configuration name="TestAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39427000" />
+    <option name="totallyTimeSpent" value="55809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +421,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42586988" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24508321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,8 +429,40 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.58132046" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4814815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3268921" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" visible="true" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4814815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,14 +483,16 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working version of HTTPDemo,removed TestController which was for testing comparison only." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working version of HTTPDemo,removed TestController which was for testing comparison only." />
+    <MESSAGE value="Integrated JUnitTest" />
+    <MESSAGE value="Finished JSON Demo using GSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished JSON Demo using GSON" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestController/Addition.java" />
@@ -494,13 +522,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestController/Power.java" />
-    <entry file="file://$PROJECT_DIR$/src/Util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppController/doListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -604,30 +625,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/AppController/AddItemTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppController/AddItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -659,27 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/HTTPJSONDemo/HTTPDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -693,37 +673,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppController/AddItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JUNITTestTarget/TestTargets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="169">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTTPJSONDemo/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/DumpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestTargetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/JUNITTest/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestTargetsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/Employees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="172">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/JUNITTest/TestAll.java">
+    <entry file="file://$PROJECT_DIR$/src/Util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="106">
+          <caret line="46" column="112" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="112" />
+          <folding>
+            <element signature="e#2325#2354#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/HTTPDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/JSONDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTTPJSONDemo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

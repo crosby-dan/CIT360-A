@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author Dan Crosby
@@ -14,7 +16,6 @@ public class Util {
 /**
      * The promptEnterKey method
      * Purpose: A simple function to prompt and catch an enter key to manage the flow of user input.
-     * @return void
      */
 
     public static void promptEnterKey(){
@@ -29,7 +30,6 @@ public class Util {
 /**
      * The promptEnterKey method with an overload to change the prompt message.
      * Purpose: A simple function to prompt and catch an enter key to manage the flow of user input.
-     * @return void
      */
 
     public static void promptEnterKey(String message){
@@ -45,7 +45,6 @@ public class Util {
      * The textToConsole method
      * A simple function to output a file of text to the console.
      * @param fn (String) - the path and file name of the text file to output to console, i.e. "img/tractor.txt"
-     * @return void
      */
 
     public static void textToConsole(String fn) throws IOException {
@@ -57,6 +56,32 @@ public class Util {
             line = in.readLine();
         }
         in.close();
+    }
+
+    //This method copied from https://stackoverflow.com/questions/8499698/trim-a-string-based-on-the-string-length
+    public static String abbreviateString(String input, int maxLength) {
+        if (input.length() <= maxLength)
+            return input;
+        else
+            return input.substring(0, maxLength-2) + "..";
+    }
+
+
+    public static String getInput(String sPattern,String errorPrompt) {
+        Pattern pattern = Pattern.compile(sPattern);
+        Matcher matcher;
+
+        @SuppressWarnings("resource")
+        Scanner in = new Scanner (System.in);
+        String input=in.nextLine();
+        matcher = pattern.matcher(input);
+        boolean matchResult=matcher.find();
+            if (!matchResult) {
+                System.out.println(errorPrompt);
+                return null;
+            }
+            else
+                return matcher.group(1);
     }
 
 }
