@@ -30,7 +30,7 @@ public class TestTargetsTest {
      */
     @org.junit.Test
     public void testGetUpperCase() {
-        assertNotSame('a', TestTargets.getUpperCase('a'));
+        assertNotEquals('a', TestTargets.getUpperCase('a'));
     }
 
     /**
