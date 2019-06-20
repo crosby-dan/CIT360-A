@@ -9,10 +9,9 @@ public class ListRequestHandler {
      *Method handleCommand
      *<p>
      * Each action on the shopping list is a separate command.
-     *
+     *</p>
      * @param  command1 - This is the name of the command, i.e. add, remove, print, or clear.
      * @param  command2 - This is the parameter which indicates which item, i.e. bananas, paper towels, etc.
-     *</p>
      */
     static void handleCommand(String command1, String command2) {
         key.put("add", new AddItem());
