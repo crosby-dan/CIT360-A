@@ -77,6 +77,7 @@ public class HTTPDemo {
         URL obj;
         StringBuffer response;
 
+        //Establish an HTTP connection to the URL
         try {
             obj=new URL(url);
             myConn = (HttpURLConnection) obj.openConnection();
@@ -87,6 +88,7 @@ public class HTTPDemo {
             return null;
         }
 
+        //Depending on the method, run the appropriate code to establish an HTTP connection.
         try {
             if (method.equals("GET")) {
 

@@ -9,9 +9,20 @@ import java.util.regex.Pattern;
 import static AppController.FrontController.AppControllerDemo;
 import static HTTPJSONDemo.HTTPDemo.httpTest;
 
+/**
+ * @author Dan Crosby
+ * CIT360
+ * This is my main project for demonstrating fluency to a basic level in the CIT360 class.
+ */
 public class Main {
 
-
+    /**
+     *Method Main
+     *<p>
+     * The main starting point of the application, which runs a main menu.
+     *</p>
+     * @param args - This app does not utilize any parameters from the command line.
+     */
     public static void main(String[] args) {
         //This block of code will capture the number of the collection test to run.
         Pattern pattern = Pattern.compile("([1-5])");
@@ -38,36 +49,48 @@ public class Main {
         while (!matchResult || Integer.parseInt(matcher.group(1))<7);
     }
 
+    /**
+     *Method RunCollectionsDemo
+     *<p>
+     * Handles the UI for the collections demo.
+     *</p>
+     */
     private static void RunCollectionsDemo() {
-    CollectionsDemo c = new CollectionsDemo();
+        CollectionsDemo c = new CollectionsDemo();
 
-    //This blockW of code will capture the number of the collection test to run.
-    Pattern pattern = Pattern.compile("([1-7])");
-    Matcher matcher;
-    boolean matchResult;
-        do {
-        System.out.format("\nChoose menu item:\n\t1) List Demo\n\t2) Hash Set Demo\n\t3) TreeSet Demo\n\t4) Map Demo\n\t5) FIFO Queue Demo\n\t6) LIFO Queue Demo (Linked List)\n\t7) Main Menu: ");
-        @SuppressWarnings("resource")
-        Scanner in = new Scanner (System.in);
-        String input=in.nextLine();
-        matcher = pattern.matcher(input);
-        matchResult=matcher.find();
-        if (!matchResult)
-            System.out.println("Invalid value provided.");
-        else
-            switch (Integer.parseInt(matcher.group(1))) {
-                case 1: c.DemoList(); break;
-                case 2: c.DemoHashSet(); break;
-                case 3: c.DemoTreeSet(); break;
-                case 4: c.DemoMapGrades(); break;
-                case 5: c.DemoQueueFIFO(); break;
-                case 6: c.DemoQueueLIFO(); break;
-                case 7: System.out.println ("Program terminated."); return;
-            }
+        //This blockW of code will capture the number of the collection test to run.
+        Pattern pattern = Pattern.compile("([1-7])");
+        Matcher matcher;
+        boolean matchResult;
+            do {
+            System.out.format("\nChoose menu item:\n\t1) List Demo\n\t2) Hash Set Demo\n\t3) TreeSet Demo\n\t4) Map Demo\n\t5) FIFO Queue Demo\n\t6) LIFO Queue Demo (Linked List)\n\t7) Main Menu: ");
+            @SuppressWarnings("resource")
+            Scanner in = new Scanner (System.in);
+            String input=in.nextLine();
+            matcher = pattern.matcher(input);
+            matchResult=matcher.find();
+            if (!matchResult)
+                System.out.println("Invalid value provided.");
+            else
+                switch (Integer.parseInt(matcher.group(1))) {
+                    case 1: c.DemoList(); break;
+                    case 2: c.DemoHashSet(); break;
+                    case 3: c.DemoTreeSet(); break;
+                    case 4: c.DemoMapGrades(); break;
+                    case 5: c.DemoQueueFIFO(); break;
+                    case 6: c.DemoQueueLIFO(); break;
+                    case 7: System.out.println ("Program terminated."); return;
+                }
+        }
+            while (!matchResult || Integer.parseInt(matcher.group(1))<7);
     }
-        while (!matchResult || Integer.parseInt(matcher.group(1))<7);
-}
 
+    /**
+     *Method RunThreadsDemo
+     *<p>
+     * Handles the UI for the threads demo.
+     *</p>
+     */
     private static void RunThreadsDemo() {
         ThreadsDemo t = new ThreadsDemo();
         AtomicityDemo t2 = new AtomicityDemo();
